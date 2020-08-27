@@ -1,0 +1,38 @@
+{
+  "name": "business-card",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "wiasliaw <leewei48750@gmail.com>",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest",
+    "format": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
+    "format:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint ./src --ext .tsx"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^1.10.0",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.3",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/snowpack-env": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "jest": "^26.2.2",
+    "prettier": "^2.0.5",
+    "snowpack": "^2.9.0",
+    "typescript": "^3.9.7"
+  }
+}
